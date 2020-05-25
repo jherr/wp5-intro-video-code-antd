@@ -22,7 +22,7 @@ export default ({ name, image, price, selected }) => {
         border: selected ? "5px solid #ccc" : "none",
       }}
     >
-      <Meta title="name" description={`$${price}`} />
+      <Meta title={name} description={`$${price}`} />
     </Card>
   );
 };

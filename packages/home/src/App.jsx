@@ -3,7 +3,7 @@ import { Layout, Row, Col, Divider } from "antd";
 
 import Header from "nav/Header";
 
-import "antd/dist/antd.css";
+import "./index.less";
 
 import ProductCarousel from "./ProductCarousel";
 
