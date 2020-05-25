@@ -69,7 +69,7 @@ module.exports = {
       exposes: {
         ProductCarousel: "./src/ProductCarousel",
       },
-      shared: ["react", "react-dom", "antd"],
+      shared: ["react", "react-dom", "antd", "@ant-design/icons"],
     }),
     new HtmlWebpackPlugin({
       template: "./src/index.html",
